@@ -2,6 +2,9 @@ name : 'SDL-CI'
 
 on: [push, pull_request]
 
+permissions:  # added using https://github.com/step-security/secure-repo
+  contents: read
+  
 jobs:
   build:
     runs-on: ubuntu=latest
