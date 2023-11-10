@@ -33,6 +33,7 @@ jobs:
         with:
           token: ${{ secrets.SDL_ACTION }}
           outputDir: ./../../results
+          repository: phansGithub/SDL-Test
 
 # ---
 # name : 'SDL-CI'
