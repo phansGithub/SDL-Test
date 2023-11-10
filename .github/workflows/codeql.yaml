@@ -32,7 +32,7 @@ jobs:
         uses: rsdmike/github-security-report-action@v3.0.4
         with:
           token: ${{ secrets.SDL_ACTION }}
-          output: ./../../results
+          outputDir: ./../../results
 
 # ---
 # name : 'SDL-CI'
