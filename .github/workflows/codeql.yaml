@@ -34,6 +34,11 @@ jobs:
           token: ${{ secrets.SDL_ACTION }}
           outputDir: ${{ github.workspace }}
           repository: ${{ github.repository }}
+      - name: Upload artifact
+        uses: actions/upload-artifact@v1
+        with:
+          name: summary.pdf
+          path: /home/runner/work/SDL-Test/**
 
 # ---
 # name : 'SDL-CI'
