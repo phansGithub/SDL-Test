@@ -31,7 +31,7 @@ jobs:
       - name: CodeQL and Dependabot Report Action
         uses: rsdmike/github-security-report-action@v3.0.4
         with:
-          repository: phansGithub/SL-Test
+          token: ${{ secrets.SDL_ACTION }}
 
 # ---
 # name : 'SDL-CI'
