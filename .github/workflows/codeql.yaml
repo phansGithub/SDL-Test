@@ -38,7 +38,7 @@ jobs:
         uses: actions/upload-artifact@v1
         with:
           name: summary.pdf
-          path: /home/runner/work/SDL-Test/**
+          path: /home/**
 
 # ---
 # name : 'SDL-CI'
