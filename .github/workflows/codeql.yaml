@@ -32,8 +32,8 @@ jobs:
         uses: rsdmike/github-security-report-action@v3.0.4
         with:
           token: ${{ secrets.SDL_ACTION }}
-          outputDir: ./../../resultsDir
-          repository: phansGithub/SDL-Test
+          outputDir: ${{ github.workspace }}
+          repository: ${{ github.repository }}
 
 # ---
 # name : 'SDL-CI'
