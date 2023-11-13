@@ -35,7 +35,7 @@ jobs:
           outputDir: ${{ github.workspace }}
           repository: ${{ github.repository }}
       - name: Upload artifact
-        uses: actions/upload-artifact@v1
+        uses: actions/upload-artifact@v3
         with:
           name: summary.pdf
           path: ${{ github.workspace }}
